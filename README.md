@@ -1,8 +1,6 @@
 # Ip2regionEx
 
-## 描述
-[ip2region](https://github.com/lionsoul2014/ip2region)   - 是一个离线IP地址定位库和IP定位数据管理框架，10微秒级别的查询效率，提供了众多主流编程语言的 xdb 数据生成和查询客户端实现。
-Ip2regionEx - 是ip2region v1.0 elixir语言客户端。使用 poolboy进程池，适用于高并发场景。
+**TODO: Add description**
 
 ## Installation
 
@@ -39,7 +37,7 @@ config :ip2region_ex,
 ```elixir
 iex(1)> Ip2regionEx.lookup("8.8.8.8")
 %{ ... }
-iex(1)>  Ip2regionEx.lookup "211.161.240.90"
+iex(1)> iex(1)> Ip2regionEx.lookup "211.161.240.90"
 % { ... }
 ```
 
