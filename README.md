@@ -38,9 +38,21 @@ config :ip2region_ex,
 
 ```elixir
 iex(1)> Ip2regionEx.lookup("8.8.8.8")
-%{ ... }
+%{
+  city_id: 166,
+  content: "美国|0|0|0|Level3",
+  eip: {8, 8, 8, 255},
+  ip: {8, 8, 8, 8},
+  sip: {8, 8, 8, 0}
+}
 iex(1)>  Ip2regionEx.lookup "211.161.240.90"
-% { ... }
+%{
+  city_id: 995,
+  content: "中国|0|上海|上海市|鹏博士",
+  eip: {211, 161, 255, 255},
+  ip: {211, 161, 240, 90},
+  sip: {211, 161, 236, 0}
+}
 ```
 
 # Benchmarking
